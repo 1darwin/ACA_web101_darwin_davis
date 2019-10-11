@@ -1,0 +1,62 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "greeting calculator"
+    "calculator dateclock"
+    "todo back";
+}
+
+.greeting {
+  background-color: aqua;
+}
+
+.calculator {
+  background-color: blue;
+}
+
+.dateclock {
+  background-color: blueviolet;
+}
+
+.todo {
+  background-color: burlywood;
+}
+.back {
+  background-color: red;
+}
+
+
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media (max-width: 576px) {
+  body {
+    display: grid;
+    grid-template-areas:
+    "greeting calculator"
+    "calculator dateclock"
+    "todo back";
+  }
+  
+  .greeting {
+    background-color: aqua;
+
+  }
+  
+  .calculator {
+    background-color: blue;
+
+  }
+  
+  .dateclock {
+    background-color: blueviolet;
+
+  }
+  
+  .todo {
+    background-color: burlywood;
+
+  }
+  .back {
+    background-color: red;
+  }

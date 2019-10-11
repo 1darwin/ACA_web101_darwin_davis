@@ -1,0 +1,54 @@
+body {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.greeting {
+  background-color: aqua;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+
+
+
+.calculator {
+  background-color: blue;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  
+  grid-template-areas: 
+  "seven eight nine addd"
+  "four five six subtract"
+  "one two three multiply"
+  "enter zero divide decimal ";
+
+
+
+}
+
+
+
+.dateclock {
+  background-color: blueviolet;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.todo {
+  background-color: burlywood;
+  grid-column: 1/2;
+  grid-row: 4/5;
+  color: blue;
+  size: 20px;
+}
+.back {
+  background-color: red;
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+

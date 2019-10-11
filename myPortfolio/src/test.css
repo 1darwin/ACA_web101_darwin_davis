@@ -1,0 +1,13 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header div"
+    "section aside"
+    "footer footer";
+}
+
+img {
+  border-radius: 50%;
+  height: 250px;
+  width: 300px;
+}
