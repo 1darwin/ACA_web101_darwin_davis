@@ -153,9 +153,9 @@ body {
       h1 {
         color:blue;
       }
-      button {
-        color:blue;
-        font-size: 15px;
+      /* button { */
+        /* color:blue; */
+        /* font-size: 15px; */
       }
     
   }

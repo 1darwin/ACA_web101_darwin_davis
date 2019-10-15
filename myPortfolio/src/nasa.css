@@ -1,0 +1,39 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+header {
+  background-image: url("cosmic.jpg");
+  height: 450px;
+  width: 850px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  padding: 20px;
+  margin: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Add your flexbox CSS below here */
+section {
+  display: flex;
+  background-color: grey;
+  height: 324px;
+  width: 850px;
+}
