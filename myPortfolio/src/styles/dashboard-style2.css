@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   max-width: 56em;
   padding: 1em 0;
-  background-image: url("water.jpg");
+  background-image: url("../images/water.jpg");
 }
 
 .dashboard {
@@ -19,10 +19,7 @@ body {
 
 .greeting {
   background-color: green;
-
 }
-
-
 
 .calculator {
   display: flex;
@@ -78,7 +75,6 @@ body {
 .doubleBordered {
   border: 2px solid black;
 }
-
 
 .month-indicator,
 .time,
