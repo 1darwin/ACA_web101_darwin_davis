@@ -129,8 +129,7 @@ button:hover {
 /* Mobile Design */
 @media (min-width: 320px) {
   .dashboard {
-    /* grid-template-columns: 100%; */
-    /* grid-template-columns: 50% 50%; */
+    grid-template-columns: 100%;
   }
 }
 

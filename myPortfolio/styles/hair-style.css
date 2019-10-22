@@ -1,0 +1,330 @@
+body {
+  background-color: lightgrey;
+}
+
+header {
+  grid-area: header;
+  background-color: #4c8f96;
+  margin-bottom: 50px;
+}
+
+.section a img {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+main {
+  grid-area: main;
+}
+
+.bigpic {
+  grid-area: bigpic;
+  background-color: white;
+  border: 2px solid #5fb3bd;
+  margin-left: 50px;
+  margin-right: 25px;
+}
+
+.bigpic img {
+  float: left;
+}
+
+.bigpic h1 {
+  size: 50px;
+}
+
+li a img {
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hair1 {
+  grid-area: hair1;
+  padding: 20px;
+}
+
+.hair2 {
+  grid-area: hair2;
+  padding: 20px;
+}
+
+.hair3 {
+  grid-area: hair3;
+  padding: 20px;
+}
+
+.hair4 {
+  grid-area: hair4;
+  padding: 20px;
+}
+
+li a {
+  box-shadow: 0px 10px 5px grey;
+}
+
+li b {
+  position: relative;
+  top: 15px;
+}
+
+.featured {
+  grid-area: featured;
+  background: white;
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  padding: 5px 15px 15px;
+  position: relative;
+  width: 420px;
+}
+
+.featured img {
+  float: left;
+}
+
+.featured .ftext {
+  position: absolute;
+  top: -15px;
+}
+
+.featured h3 {
+  position: relative;
+  left: 50px;
+}
+
+.featured p a {
+  color: #464646;
+}
+.content p a {
+  color: #464646;
+}
+
+.sidebar a {
+  color: #464646;
+  text-decoration: none;
+}
+
+.contact a {
+  color: #464646;
+  text-decoration: none;
+}
+
+#about p a {
+  color: #464646;
+}
+
+.article .htext {
+  position: relative;
+  top: -15px;
+  left: 10px;
+}
+
+.section2 {
+  grid-area: section2;
+  background-color: #4c8f96;
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.section2 a {
+  color: white;
+}
+
+.section2 .mike {
+  float: right;
+  color: white;
+  text-decoration: none;
+}
+
+.skinhead {
+  grid-area: skinhead;
+  background-color: #4c8f96;
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  color: white;
+  font-size: 25px;
+}
+
+.connect {
+  grid-area: connect;
+}
+
+p {
+  grid-area: copy;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #4c8f96;
+  margin-top: 25px;
+  text-align: center;
+  height: 100px;
+}
+
+.connect {
+  background: #387a82;
+  float: right;
+  height: 18px;
+  margin: 0 20px 0 150px;
+  padding: 22px 20px;
+  overflow: hidden;
+  width: 144px;
+  background: #387a82;
+  float: right;
+  height: 18px;
+  margin: 0 20px 0 150px;
+  padding: 22px 20px;
+  overflow: hidden;
+  width: 144px;
+}
+
+.connect a {
+  background: url(../images/icons.png) no-repeat;
+  display: block;
+  float: left;
+  height: 20px;
+  margin: 0 8px;
+  padding: 0;
+  text-indent: -99999px;
+  width: 20px;
+}
+
+#twitter {
+  background-position: 0 -32px;
+}
+
+#facebook {
+  background-position: 0 -57px;
+}
+
+#googleplus {
+  background-position: 0 -82px;
+}
+
+#pinterest {
+  background-position: 0 -107px;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.content {
+  grid-area: content;
+  padding: 20px;
+}
+
+.sidebar h3 {
+  size: 30px;
+  text-align: center;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: white;
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  padding: 5px 15px 15px;
+  padding: 20px;
+}
+
+.blog {
+  display: grid;
+  grid-template-areas: "content content sidebar";
+}
+
+.ziz {
+  grid-area: ziz;
+}
+
+nav {
+  grid-area: nav;
+}
+
+.section {
+  display: grid;
+  grid-template-areas:
+    "ziz . ."
+    "ziz nav nav"
+    "ziz . .";
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "bigpic bigpic bigpic bigpic "
+    "hair1 hair2 hair3 hair4"
+    "featured featured section2 section2"
+    "featured featured skinhead skinhead";
+}
+
+.ziz {
+  float: left;
+}
+
+nav a:link,
+a:visited {
+  background-color: #191d32;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a:hover,
+a:active {
+  background-color: rgb(58, 120, 156);
+}
+
+#selected {
+  background-color: rgb(58, 120, 156);
+}
+
+.menu {
+  background: blue;
+  padding: 20px;
+}
+
+nav {
+  top: 50px;
+  right: 50px;
+}
+
+.skinhead img {
+  float: left;
+  position: relative;
+  top: -15px;
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.flex img {
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  box-shadow: 0px 10px 5px grey;
+  margin: 30px;
+}
+
+.hrstyle .more {
+  position: relative;
+  left: 500px;
+  color: #464646;
+}
+
+footer p {
+  color: white;
+}
