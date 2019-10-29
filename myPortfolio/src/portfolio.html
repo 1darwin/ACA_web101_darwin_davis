@@ -4,12 +4,116 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+    <link rel="stylesheet" href="./styles/portfolio-style.css" />
     <title>Document</title>
   </head>
   <body>
-    <a href="/src/dashboard.html">Dashboard</a><br />
-    <a href="/src/dashboard2.html">Dashboard 2 (Redesigned Calculator)</a><br />
-    <a href="/src/nasa.html">NASA</a>
+    <header>
+      <h1> <em>Darwin Davis </em> </h1>
+        <nav>
+
+
+          <section class="stage">
+            <a href="portfolio.html" id="home" class="div"><p  id="homep" class="p"> Home </p></a>
+            <a href="aboutme.html" class="div" id="about"><p class="p">About</p>
+            </a>
+            <a href="contactme.html" class="div" id="contact"><p class="p">Contact</p>
+            </a>
+          </section>
+        </nav>
+    </header>
+    
+<hr>
+
+  <div class="work"> 
+    <div class="hair">
+      <h2>Hair Salon</h2>
+      <a href="/src/hair.html">
+        <img src="./images/hair.PNG" alt="Hair Salon">
+      </a>
+      </div>
+
+    <div class="nasa">
+        <h2>Nasa</h2>
+        <a href="/src/nasa.html">
+            <img src="./images/nasa.PNG" alt="Nasa">
+        </a>
+      </div>
+
+    <div class="resume">
+        <h2>Resume</h2>
+        <a href="/src/resume.html">
+            <img src="./images/resume.PNG" alt="Resume">
+        </a>
+      </div>
+    
+    <div class="dash">
+        <h2>Dashboard</h2>
+        <a href="/src/dashboard.html">
+            <img src="./images/dashboard.PNG" alt="Dashboard">
+        </a>
+      </div>
+
+    <div class="railgun">
+      <iframe
+        src="https://www.youtube.com/embed/03vw9MYqpg0"
+        title="Electromagnetic Powder Deposition Experiment Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+
+    <div class="sunset" >
+      <video controls height="250" width="250"
+      src="videos/PuertoVallartaSunset.mp4" type="video/mp4">
+    
+      <video controls height="250" width="250"
+      src="videos/PuertoVallartaSunset.avi" type="video/mov">
+    
+      <p>Your browser doesn't support HTML5 video.</p>
+    
+    </video>
+
+
+    </div>
+
+    <div class="form">
+      
+      <h2>Form</h2>
+     
+        
+      <form action="">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname"><br>
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="fname"><br>
+
+          <label for="mail">Email</label>
+          <input type="text" id="mail" name="fname"><br>
+
+          <label for="local">Location</label>
+          <input type="text" id="local" name="fname"><br>
+
+          <label for="message">Message</label>
+          <input type="text" id="message" name="fname"><br>
+
+          
+          <input type="reset" id="reset" name="fname">
+
+          
+          <input type="submit" id="submit" name="fname">
+
+
+
+      </form>
+
+    </div>
+
+  </div>
+
+
   </body>
 </html>

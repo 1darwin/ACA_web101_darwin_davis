@@ -1,0 +1,224 @@
+body {
+  background: #78FED6;
+}
+
+header {
+  grid-area: header;
+  background: #f2f2f2;
+}
+
+.hair {
+  grid-area: hair;
+  text-align: center;
+}
+
+.nasa {
+  grid-area: nasa;
+  text-align: center;
+}
+
+.resume {
+  grid-area: resume;
+  text-align: center;
+}
+
+.dash {
+  grid-area: dash;
+  text-align: center;
+}
+
+.railgun {
+  grid-area: railgun;
+  align-content: center;
+  margin-left: 50px;
+  margin-top: 50px;
+  /* height: 250px; */
+  /* width: 350px; */
+}
+
+.sunset {
+  grid-area: sunset;
+  align-content: center;
+  margin-left: 50px;
+  margin-top: 50px;
+  /* height: 50px; */
+  width: 10px;
+}
+
+.form {
+  grid-area: form;
+}
+
+footer {
+  grid-area: footer;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header "
+    "section";
+  margin: 100px;
+}
+
+.work {
+  display: grid;
+  grid-template-areas:
+    "hair nasa"
+    "resume dash"
+    "railgun sunset"
+    "form form";
+  background: white;
+}
+
+.about {
+  background-image: url("../images/beachdarwin.jpg");
+  background: white;
+}
+
+.about img {
+  height: 350px;
+  width: 250px;
+  float: left;
+}
+
+.about ul {
+  list-style-type: none;
+}
+
+.interest {
+  float: right;
+}
+
+.about p {
+  float: right;
+  background: whitesmoke;
+}
+
+
+
+.contact {
+  background: white;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+}
+
+nav a {
+  color: black;
+}
+
+a img {
+  height: 250px;
+  width: 250px;
+}
+
+.form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 50px;
+}
+
+
+/* menu  */
+
+
+
+.stage{
+  height: 350px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 0;
+  cursor: pointer;
+  width: 100%;
+  background: #78FED6;
+  border-radius: 10px;
+  font-family: Century Gothic;
+  letter-spacing: 5px;
+}
+.div{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  margin-top: 4%;
+ transition-duration: 0.2s;
+
+}
+.p:hover{
+  background: white;
+  color: black;
+}
+.div:nth-child(odd){
+  transform: perspective(300px) rotateY(45deg);
+  box-shadow: -2px 2px 7px gray;
+}
+.div:nth-child(even){
+  transform: perspective(300px) rotateY(-45deg);
+    box-shadow: 2px 2px 7px gray;
+}
+.div:hover{
+  transform: rotateY(0);
+  background: white;
+  color: black;
+  box-shadow: 0px 0px 0px;
+}
+
+a {
+  text-decoration:none
+}
+
+.address {
+  font-size: 60px;
+}
+
+.contact iframe {
+  width: 600px; 
+  height: 450px; 
+}
+
+
+/* mobile layout */
+
+@media (max-width: 568px) {
+
+  .work {
+    display: grid;
+    grid-template-areas:
+      "hair "
+      "nasa"
+      "resume" 
+      "dash"
+      "railgun" 
+      "sunset"
+      "form";
+    background: white;
+  }
+
+  .about img {
+    height: 250px;
+    width: 150px;
+    float: left;
+  }
+
+  .contact iframe {
+    width: 300px; 
+    height: 250px; 
+  }
+
+}
