@@ -1,0 +1,51 @@
+/* .square { */
+/* background-color: red; */
+/* } */
+
+#topleft {
+  grid-area: topleft;
+  background-color: red;
+}
+
+#topmid {
+  grid-area: topmid;
+  background-color: red;
+}
+
+#topright {
+  grid-area: topright1;
+  background-color: red;
+}
+
+#midleft {
+  grid-area: midleft;
+}
+
+#middle {
+  grid-area: mid;
+}
+
+#midright {
+  grid-area: midright;
+}
+
+#botleft {
+  grid-area: botleft;
+}
+
+#botmid {
+  grid-area: botmid;
+}
+
+#topleft {
+  grid-area: botleft;
+}
+
+.board {
+  background-color: green;
+  display: grid;
+  grid-template-areas:
+    "topleft topmid topright"
+    "midleft mid midright"
+    "botleft botmid botleft";
+}

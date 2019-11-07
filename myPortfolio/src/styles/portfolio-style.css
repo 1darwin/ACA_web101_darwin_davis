@@ -1,5 +1,6 @@
 body {
-  background: #78FED6;
+  background: #78fed6;
+  margin: auto;
 }
 
 header {
@@ -27,22 +28,26 @@ header {
   text-align: center;
 }
 
+.squares {
+  grid-area: squares;
+  text-align: center;
+}
+
 .railgun {
   grid-area: railgun;
   align-content: center;
-  margin-left: 50px;
-  margin-top: 50px;
-  /* height: 250px; */
-  /* width: 350px; */
+  /* margin-left: 50px; */
+  /* margin-top: 50px; */
+  margin: auto;
 }
 
 .sunset {
   grid-area: sunset;
-  align-content: center;
-  margin-left: 50px;
-  margin-top: 50px;
-  /* height: 50px; */
-  width: 10px;
+  /* align-content: center; */
+  /* margin-left: 50px; */
+  /* margin-top: 50px; */
+  margin: auto;
+  /* width: 10px; */
 }
 
 .form {
@@ -66,6 +71,7 @@ body {
   grid-template-areas:
     "hair nasa"
     "resume dash"
+    "squares squares"
     "railgun sunset"
     "form form";
   background: white;
@@ -95,8 +101,6 @@ body {
   background: whitesmoke;
 }
 
-
-
 .contact {
   background: white;
 }
@@ -104,6 +108,10 @@ body {
 header h1 {
   font-weight: 700;
   font-size: 60px;
+  text-align: center;
+}
+
+h2 {
   text-align: center;
 }
 
@@ -128,51 +136,47 @@ a img {
   margin: 50px;
 }
 
-
 /* menu  */
 
-
-
-.stage{
+.stage {
   height: 350px;
   width: 250px;
   margin-left: auto;
   margin-right: auto;
 }
-.p{
+.p {
   font-size: 35px;
   text-align: center;
   margin-top: 0;
   cursor: pointer;
   width: 100%;
-  background: #78FED6;
+  background: #78fed6;
   border-radius: 10px;
   font-family: Century Gothic;
   letter-spacing: 5px;
 }
-.div{
+.div {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
   width: 200px;
   height: 40px;
   margin-top: 4%;
- transition-duration: 0.2s;
-
+  transition-duration: 0.2s;
 }
-.p:hover{
+.p:hover {
   background: white;
   color: black;
 }
-.div:nth-child(odd){
+.div:nth-child(odd) {
   transform: perspective(300px) rotateY(45deg);
   box-shadow: -2px 2px 7px gray;
 }
-.div:nth-child(even){
+.div:nth-child(even) {
   transform: perspective(300px) rotateY(-45deg);
-    box-shadow: 2px 2px 7px gray;
+  box-shadow: 2px 2px 7px gray;
 }
-.div:hover{
+.div:hover {
   transform: rotateY(0);
   background: white;
   color: black;
@@ -180,7 +184,7 @@ a img {
 }
 
 a {
-  text-decoration:none
+  text-decoration: none;
 }
 
 .address {
@@ -188,23 +192,22 @@ a {
 }
 
 .contact iframe {
-  width: 600px; 
-  height: 450px; 
+  width: 600px;
+  height: 450px;
 }
-
 
 /* mobile layout */
 
 @media (max-width: 568px) {
-
   .work {
     display: grid;
     grid-template-areas:
       "hair "
       "nasa"
-      "resume" 
+      "resume"
       "dash"
-      "railgun" 
+      "squares"
+      "railgun"
       "sunset"
       "form";
     background: white;
@@ -217,8 +220,7 @@ a {
   }
 
   .contact iframe {
-    width: 300px; 
-    height: 250px; 
+    width: 300px;
+    height: 250px;
   }
-
 }

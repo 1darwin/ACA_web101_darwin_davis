@@ -5,33 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/mobile-style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
+    <link rel="stylesheet" href="./styles/animate.min.css">
     <title>My Portfolio</title>
   </head>
     <body>
+        <!-- onload="window.alert('Welcome to my home page!');" -->
     <!-- This is a what comment line looks like in HTML -->
     <!-- The rest of your code goes between here... -->
         <header>
             <img src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png" class="logo" alt="austin coding academy logo">
-
+         
             <nav>
-                <a class="has-border" href="./src/resume.html">Resume</a>
-                <a class="has-border">About Me</a>
-                <a class="has-border">My Blog</a>
-                <a class="has-border">Contact Me</a>
+                <a class="animated flip delay-2s" class="has-border" href="./src/resume.html">Resume</a>
+                <a class="animated flip delay-3s" class="has-border">About Me</a>
+                <a class="animated flip delay-4s" class="has-border">My Blog</a>
+                <a class="animated flip delay-5s" class="has-border">Contact Me</a>
             </nav> 
+
+         
         </header>
               
         <main>
-            <img src="./images/myProfilePic.gif" id="profile-pic" alt="Head shot of Me">
-            <h1> Darwin Davis <h1>
-            <h2>Student of Web Development</h2><br>
-            <!-- <a href="./src/portfolio.html"><button>Portfolio</button></a> -->
-            <a href="./src/portfolio.html"><button>Portfolio</button></a>
+            <img class="animated flip delay-1s"  src="./images/myProfilePic.gif" id="profile-pic" alt="Head shot of Me">
+            <h1 class="animated bounce delay-2s"> Darwin Davis <h1>
+            <h2 class="animated swing infinite">Student of Web Development</h2><br>
+            <a class="animated zoomin infinite" href="./src/portfolio.html"><button>Portfolio</button></a>
 
 
-            <a class="small-text" href="https://austincodingacademy.com/">© Austin Coding Academy</a>
+            <a class="small-text" href="https://austincodingacademy.com/">© Austin Coding Academy</a> <br>
+
+            <h3>Animated Entrance</h3>
+
         </main>
 
-    <!-- ...and here. -->
     </body>
   </html>
