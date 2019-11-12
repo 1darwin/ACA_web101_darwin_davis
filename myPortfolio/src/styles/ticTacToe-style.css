@@ -1,51 +1,74 @@
-/* .square { */
-/* background-color: red; */
-/* } */
+.square {
+  border-color: black;
+  margin: auto;
+}
 
-#topleft {
+body {
+  display: grid;
+}
+
+.topleft {
   grid-area: topleft;
-  background-color: red;
 }
 
-#topmid {
+.topmid {
   grid-area: topmid;
-  background-color: red;
 }
 
-#topright {
-  grid-area: topright1;
-  background-color: red;
+.topright {
+  grid-area: topright;
 }
 
-#midleft {
+.midleft {
   grid-area: midleft;
 }
 
-#middle {
+.middle {
   grid-area: mid;
 }
 
-#midright {
+.midright {
   grid-area: midright;
 }
 
-#botleft {
+.botleft {
   grid-area: botleft;
 }
 
-#botmid {
+.botmid {
   grid-area: botmid;
 }
 
-#topleft {
-  grid-area: botleft;
+.botright {
+  grid-area: botright;
 }
 
 .board {
-  background-color: green;
+  background-color: blue;
   display: grid;
   grid-template-areas:
     "topleft topmid topright"
     "midleft mid midright"
-    "botleft botmid botleft";
+    "botleft botmid botright";
+
+  height: 300px;
+  width: 300px;
+}
+
+.xo {
+  height: 90px;
+  width: 90px;
+  margin: auto;
+  background-color: red;
+  font-size: 60px;
+  color: white;
+}
+
+.button {
+  height: 90px;
+  width: 90px;
+  margin: auto;
+  background-color: green;
+  font-size: 60px;
+  color: red;
 }

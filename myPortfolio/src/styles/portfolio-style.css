@@ -28,6 +28,11 @@ header {
   text-align: center;
 }
 
+.check {
+  grid-area: check;
+  text-align: center;
+}
+
 .squares {
   grid-area: squares;
   text-align: center;
@@ -71,7 +76,7 @@ body {
   grid-template-areas:
     "hair nasa"
     "resume dash"
-    "squares squares"
+    "squares check"
     "railgun sunset"
     "form form";
   background: white;
@@ -207,6 +212,7 @@ a {
       "resume"
       "dash"
       "squares"
+      "check"
       "railgun"
       "sunset"
       "form";

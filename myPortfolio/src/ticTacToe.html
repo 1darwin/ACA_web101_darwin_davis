@@ -8,42 +8,53 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="board">
-      <div class="square" id="topleft">
-        <h1>Test</h1>
-      </div>
-
-      <div class="square" id="topmid">
-        <h1>Test</h1>
-      </div>
-
-      <div class="square" id="topright">
-        <h1>Test</h1>
-      </div>
-
-      <div class="square" id="midleft">
-        <h1>Test</h1>
-      </div>
-
-      <div class="square" id="middle">
-        <h1>Test</h1>
-      </div>
-
-      <div class="square" id="midright">
-        <h1>Test</h1>
-      </div>
-
-      <div class="square" id="botleft">
-        <h1>Test</h1>
-      </div>
-
-      <div class="square" id="botmid">
-        <h1>Test</h1>
-      </div>
-
-      <div class="square" id="botleft">
-        <h1>Test</h1>
-      </div>
+    <!-- onload="window.alert('Welcome to my home page!');" -->
+    
+    <div>
+        <button class="button" onclick="changeMarkerToX()">X</button>
+        <button class="button" onclick="changeMarkerToO()">O</button>
     </div>
+    <hr>
+    </div>
+    <div class="board">
+      <div class="square topleft">
+        <button class="xo" onclick="placeMark(this)"></button>
+      </div>
+
+      <div class="square topmid">
+        <button class="xo" onclick="placeMark(this)"></button>
+      </div>
+
+      <div class="square topright">
+        <button class="xo" onclick="placeMark(this)"></button>
+      </div>
+
+      <div class="square midleft">
+        <button class="xo" onclick="placeMark(this)"></button>
+      </div>
+
+      <div class="square middle">
+        <button class="xo" onclick="placeMark(this)"></button>
+      </div>
+
+      <div class="square midright">
+        <button class="xo" onclick="placeMark(this)"></button>
+      </div>
+
+      <div class="square botleft">
+        <button class="xo" onclick="placeMark(this)"></button>
+      </div>
+
+      <div class="square botmid">
+        <button class="xo" onclick="placeMark(this)"></button>
+      </div>
+
+      <div class="square botright">
+        <button class="xo" onclick="placeMark(this)"></button>
+      </div>
+
+     
+    <script src="./scripts/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/ticTacToe.js"></script>
   </body>
 </html>

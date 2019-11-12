@@ -96,18 +96,25 @@
     </div>  
 </div>
      <div class="todo">
-            <form>
+            
              <h1> To do:</h1> <br>
              <ul>
-                    <li> Build bookshelf </li>
-                    <li> Idea writeup </li>
-                    <li> Research new tech </li>
+                    <li class="item"> Build bookshelf </li>
+                    <li class="item"> Idea writeup </li>
+                    <li class="item"> Research new tech </li>
              </ul>
-            <input type="text" name="To do"><br>
-           
+             <div id="newItemButton"><button href="#">new item</button> </div>
+             <form id="newItemForm">
+               <input type="text" id="itemField" placeholder="Item" />
+              <input type="submit" id="add" value="add" />
+              </form>
      </div>
 
 
-    </div>    
+    </div>   
+    
+    <script src="./scripts/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/dashboard.js"></script>
     </body>
+
 </html>

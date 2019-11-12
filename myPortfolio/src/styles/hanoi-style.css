@@ -1,0 +1,32 @@
+#board {
+  display: flex;
+}
+[column-data] {
+  width: 100px;
+  height: 300px;
+  background-color: #f2f2f2;
+  border-right: 1px solid #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: auto;
+  align-items: center;
+}
+
+.red {
+  height: 25px;
+  width: 75px;
+  background-color: red;
+}
+
+.blue {
+  height: 25px;
+  width: 50px;
+  background-color: blue;
+}
+
+.green {
+  height: 25px;
+  width: 25px;
+  background-color: green;
+}
